@@ -1,7 +1,89 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c469b668-2601-4b8c-8d27-c281f3b61b63" name="默认" comment="" />
+    <list default="true" id="c469b668-2601-4b8c-8d27-c281f3b61b63" name="默认" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/css/animate.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/anli.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/banner_gywm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/banner_lxwm.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/banner_news.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/blush_01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/blush_02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/blush_03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/blush_04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/blush_05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/consult_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/consult_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/consult_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/consult_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/contact_icon_01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/contact_icon_02.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/contact_icon_03.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/contact_icon_04.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/contact_icon_05.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/cooperation_01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/cooperation_02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/cooperation_03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/cooperation_04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/cooperation_05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/cooperation_06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/cooperation_07.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/cooperation_08.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/cooperation_09.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/cooperation_10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/course_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/course_thumbs_01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/course_thumbs_02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/course_thumbs_03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/course_thumbs_04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/course_thumbs_05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/culture_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/enroll_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/header_tel.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/honour_01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/honour_02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/honour_03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/honour_04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/profile-img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/qrcode.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/student_01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/student_02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/student_03.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/student_04.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/student_05.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/student_06.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/student_story_01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/students_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/swiper-button-next.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/swiper-button-prev.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/common.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/jquery.SuperSlide.2.1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/swiper.animate1.0.3.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/about/gywm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/dccp/dccp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/kcjs/kcjs_01.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/kcjs/kcjs_02.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/kcjs/kcjs_03.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/kcjs/kcjs_04.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/kcjs/kcjs_05.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/kcjs/kcjs_06.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/kcjs/list_kcjs.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/lxwm/lxwm.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/mftk/mftk.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/news/list_news.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/news/news_detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/szll/szll.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page/zsjm/zsjm.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/base.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/base.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.less" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.less" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/video-js.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/common.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/common.js" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,18 +95,32 @@
       <list>
         <option value="Less File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1T2jxU3kIaoe3MG5H00giiLWrIV" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="添加" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/page/zsjm" />
     <property name="list.type.of.created.stylesheet" value="Less" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\wamp\www\lange_m\css" />
+      <recent name="C:\wamp\www\lange_m\page\zsjm" />
+      <recent name="C:\wamp\www\lange_m\page\szll" />
+      <recent name="C:\wamp\www\lange_m\page\news" />
+      <recent name="C:\wamp\www\lange_m\page\mftk" />
+      <recent name="C:\wamp\www\lange_m\page\lxwm" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -61,11 +157,26 @@
       <updated>1572665330990</updated>
       <workItem from="1572665332181" duration="11031000" />
       <workItem from="1572828711921" duration="193000" />
-      <workItem from="1573893680173" duration="600000" />
+      <workItem from="1573893680173" duration="946000" />
+      <workItem from="1573953057747" duration="34228000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
