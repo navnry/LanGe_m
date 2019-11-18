@@ -7,6 +7,51 @@
 @themeColor1: #38b3d5;
 @themeColor2: #f66a95;
 @boxShadow: 0 .04rem 0 0;
+@backgroundImg: center center /cover no-repeat;
+.coverImg() {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center
+}
+
+.line-feed-1() {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.line-feed-2() {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  /* autoprefixer: off */
+  -webkit-box-orient: vertical;
+  /* autoprefixer: on */
+  -webkit-line-clamp: 2;
+}
+
+.line-feed-3() {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  /* autoprefixer: off */
+  -webkit-box-orient: vertical;
+  /* autoprefixer: on */
+  -webkit-line-clamp: 3;
+}
+
+.line-feed-4() {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  /* autoprefixer: off */
+  -webkit-box-orient: vertical;
+  /* autoprefixer: on */
+  -webkit-line-clamp: 4;
+}
+
 ::-webkit-scrollbar {
   width: 0;
   height: 0;
@@ -87,7 +132,6 @@ header {
       color: #fff;
     }
 
-
   }
 
   .menu-btn {
@@ -98,7 +142,6 @@ header {
     float: right;
     margin-top: .1rem;
     //padding: .21rem .17rem;
-
 
     .wrap {
       height: 100%;
@@ -144,7 +187,6 @@ header {
       //  }
       //}
 
-
     }
   }
 
@@ -184,7 +226,6 @@ header {
       transform: translateX(0);
     }
   }
-
 
   li {
     width: 100%;
@@ -275,7 +316,6 @@ footer {
   }
 }
 
-
 .banner {
   img {
     display: block;
@@ -293,7 +333,6 @@ footer {
     }
   }
 
-
 }
 
 .sub-nav {
@@ -301,8 +340,6 @@ footer {
   border-top: 1px solid #e5e5e5;
   border-bottom: 1px solid #e5e5e5;
   position: -webkit-sticky;
-  position: -moz-sticky;
-  position: -ms-sticky;
   position: sticky;
   top: 1rem;
   z-index: 7;
@@ -533,11 +570,9 @@ footer {
 .course {
   background: url(../img/course_bg.jpg) center center/cover no-repeat;
 
-
   .course-top {
     margin-bottom: .45rem;
     margin-top: .5rem;
-
 
     .swiper-slide {
       height: 6rem;
@@ -568,7 +603,6 @@ footer {
       display: inline-block;
       text-align: center;
 
-
       &.active {
 
         a {
@@ -587,7 +621,6 @@ footer {
         color: #fff;
         border-radius: .04rem;
         transition-duration: .1s;
-
 
       }
     }
@@ -666,7 +699,6 @@ footer {
         transform: translateX(-50%);
         bottom: -.21rem;
       }
-
 
       &:nth-child(1) {
         box-shadow: @boxShadow rgba(232, 142, 62, .2);
@@ -794,7 +826,6 @@ footer {
         line-height: .7rem;
         text-align: center;
 
-
         i, span {
           color: #fff;
           font-size: .3rem;
@@ -811,7 +842,6 @@ footer {
     height: 1.88rem;
     margin: 0 auto;
   }
-
 
   .swiper-button-prev,
   .swiper-button-next {
@@ -855,7 +885,6 @@ footer {
   }
 }
 
-
 .choice {
   .list {
     margin-top: .5rem;
@@ -872,7 +901,6 @@ footer {
       p {
         font-size: .26rem;
         text-align: center;
-
 
         &:after {
           content: '';
@@ -1029,7 +1057,6 @@ footer {
       }
     }
 
-
     .list-1 {
       margin-bottom: .5rem;
 
@@ -1062,7 +1089,6 @@ footer {
 
         &.pic {
           border: 0;
-
 
           a {
             width: 100%;
@@ -1187,7 +1213,6 @@ footer {
 .enroll {
   background: url(../img/enroll_bg.jpg) center center/cover no-repeat;
 
-
   .map-container {
     width: 100%;
     height: 3.4rem;
@@ -1291,7 +1316,6 @@ footer {
       border-radius: .2rem;
       overflow: hidden;
       margin-bottom: .2rem;
-
 
       a {
         color: #fff;
@@ -1442,7 +1466,6 @@ footer {
     a {
       display: block;
 
-
       &:after {
         content: '';
         display: block;
@@ -1503,7 +1526,6 @@ footer {
 .show-more {
   font-size: 0;
   text-align: center;
-
 
   a {
     display: inline-block;
@@ -1593,7 +1615,6 @@ footer {
   }
 
 }
-
 
 .strength {
   .main {
@@ -2064,7 +2085,6 @@ footer {
         width: .4rem;
       }
 
-
     }
   }
 
@@ -2144,7 +2164,6 @@ footer {
 
     a {
       display: block;
-
 
       &:after {
         content: '';
@@ -2265,7 +2284,6 @@ footer {
     }
   }
 }
-
 
 .students-case {
   background: url(../img/case_bg.jpg) center center/cover no-repeat;
@@ -2455,7 +2473,6 @@ footer {
 
     a {
       display: block;
-
 
       &:after {
         content: '';
@@ -2749,7 +2766,6 @@ footer {
       border-radius: .1rem;
       //overflow: hidden;
       position: relative;
-
 
       &:nth-child(1), &:nth-child(2) {
         width: 2.34rem;
@@ -3060,7 +3076,6 @@ footer {
   }
 }
 
-
 //
 //
 //
@@ -3098,7 +3113,7 @@ footer {
 .xianchang {
   background: url(../img/xianchang_bg.jpg) center center/cover no-repeat;
 
-  .list{
+  .list {
     overflow: hidden;
   }
   li {
@@ -3109,7 +3124,47 @@ footer {
     overflow: hidden;
 
     img {
+      .coverImg
+    }
+  }
+}
+
+.neirong-1 {
+  background: url(../img/kecheng_1_bg.jpg) @backgroundImg;
+
+  .wrap {
+    background: url(../img/kecheng_1_centent_bg.jpg) top center/cover no-repeat;
+    padding: .6rem .3rem;
+  }
+  .content {
+    .name {
+      font-size: .36rem;
+      margin-bottom: .15rem;
+    }
+    .time {
+      font-size: .24rem;
+      line-height: .36rem;
+      margin-bottom: .3rem;
+    }
+    .tit {
+      font-size: .36rem;
+      color: #666;
+      margin-bottom: .15rem;
+    }
+    .desc {
+      font-size: .24rem;
+      color: #666;
+      line-height: .36rem;
+    }
+  }
+
+  .btn {
+    margin-top: .5rem;
+
+    a {
       display: block;
+      width: 2.65rem;
+      height: .65rem;
     }
   }
 }
@@ -3126,13 +3181,12 @@ footer {
       height: 2.45rem;
       float: left;
       margin-right: .2rem;
-     background: url(../img/anpai_bg_01.jpg) center center/cover no-repeat;
+      background: url(../img/anpai_bg_01.jpg) center center/cover no-repeat;
       border-radius: .2rem;
       overflow: hidden;
       position: relative;
       color: #fff;
       text-align: center;
-
 
       p {
         font-size: .3rem;
@@ -3146,4 +3200,18 @@ footer {
       }
     }
   }
+}
+
+.merge-1 {
+  background: url(../img/merge_01.jpg) center center/cover no-repeat;
+
+  .honour {
+    .main {
+      padding-top: .8rem;
+    }
+  }
+}
+
+.liyou-1 {
+  background: url(../img/liyou_01.jpg) @backgroundImg;
 }
