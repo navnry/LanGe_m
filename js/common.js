@@ -256,4 +256,20 @@ $(document).ready(function ($) {
         $(".join-course .wrap .item").eq(_index).show().siblings().hide()
     })
 
+    $(".xianchang .list").slide({
+        mainCell: "ul",
+        autoPlay: true,
+        effect: "leftMarquee",
+        vis: 2,
+        interTime: 30,
+        autoPlay: true,
+    });
+    $(".anpai .list").slide({
+        mainCell: "ul",
+        autoPlay: true,
+        effect: "leftMarquee",
+        vis: 2,
+        interTime: 30,
+        autoPlay: true,
+    });
 })
