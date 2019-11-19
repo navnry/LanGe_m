@@ -44,7 +44,13 @@ $(document).ready(function ($) {
     }
 
     var courseSwiper = new Swiper('.course .swiper-container', {
-        spaceBetween: myFontSize * 20
+        spaceBetween: myFontSize * 20,
+        on: {
+            slideChangeTransitionEnd: function () {
+                console.log(this.activeIndex);
+                $(".course-tabs li").eq(this.activeIndex).addClass("active").siblings().removeClass("active")
+            }
+        }
     });
 
     $(".course-tabs li").on("click", function () {
@@ -157,18 +163,37 @@ $(document).ready(function ($) {
         }, 500)
     })
 
+    var lecturesFilms = $(".lectures").find("video")
     var lecturesItem = $(".lectures").find(".swiper-slide")
 
-    lecturesItem.find("video").on("mousemove", function (e) {
+    lecturesItem.find("video").on("touchmove", function (e) {
         e.stopPropagation()
-
     })
+
+    if ($(".lectures").length > 0) {
+        $(window).scroll(function () {
+            var lecturesFilmsView = $(".lectures")[0].offsetTop;
+            if (lecturesFilmsView >= $(window).scrollTop() && lecturesFilmsView < ($(window).scrollTop() + $(window).height())) {
+                // console.log('出现了');
+            }else {
+                // console.log('消失了');
+                lecturesFilms.trigger("pause")
+            }
+        })
+    }
+
     if (lecturesItem.length > 1) {
         var lecturesSwiper = new Swiper(".lectures .swiper-container", {
             speed: 600,
             spaceBetween: myFontSize * 20,
             pagination: {
                 el: ".lectures .swiper-pagination"
+            },
+            on: {
+                slideChangeTransitionEnd: function () {
+                    lecturesFilms.eq(this.activeIndex).trigger("play")
+                    lecturesFilms.eq(this.previousIndex).trigger("pause")
+                }
             }
         })
     }
@@ -272,4 +297,19 @@ $(document).ready(function ($) {
         interTime: 30,
         autoPlay: true,
     });
+
+
+    if ($("#map").length > 0) {
+        var map = new BMap.Map("map");    // 创建Map实例
+        var point = new BMap.Point(112.978398, 27.790351);// 创建点坐标
+        var zoomCtrl = new BMap.ZoomControl({
+            anchor: BMAP_ANCHOR_BOTTOM_RIGHT,
+            // offset: new BMap.Size(20, 20)
+        });
+        var marker = new BMap.Marker(point);
+        map.centerAndZoom(point, 18);
+        map.addOverlay(marker);
+        map.addControl(zoomCtrl);
+        map.disableDragging();
+    }
 })

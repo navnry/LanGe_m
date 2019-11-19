@@ -66,8 +66,11 @@ em, i {
 
 textarea {
     resize: none; /*禁用了文本的拖拉，尤其在谷歌下*/
+    font-family:  Tahoma, Arial, sans-serif;
 }
-
+textarea::placeholder{
+    font-family:  Tahoma, Arial, sans-serif;
+}
 p {
     word-wrap: break-word; /* 不够的单词自动换行 而不会被截掉 */
 }
